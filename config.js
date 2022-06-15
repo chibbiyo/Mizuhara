@@ -8,7 +8,7 @@ let gg = process.env.MODS
 if (!gg) {
 	gg = "212655892921"
 }
-global.owner = gg.split("212655892921","212667876859");
+global.owner = gg.split(",");
 global.mongodb = process.env.MONGODB || "none"
 global.port = process.env.PORT || 8080
 global.packname = process.env.PACKNAME || "Mizuhara",

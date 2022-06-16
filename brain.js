@@ -194,12 +194,12 @@ case '':
 
     const dbut = [
 {buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=mods', buttonText: {displayText: '💥 Mizuhara Team'}, type: 1}
 ]
 let buttonMessaged = {
         image: {url:"https://telegra.ph/file/645707c1698c8a9515953.jpg"},
         caption: `*DID YOU MEAN =help ?*`,
-        footer: '©Arus 2022',
+        footer: '©MIZUHARA 2022',
         buttons: dbut,
         headerType: 4
     }
@@ -302,7 +302,7 @@ const hlp=`
 
 🎯 image\`\`\`
 
- 🍁 *©Powered by Arus* 🍁`
+ 🍁 *©Powered by Sam* 🍁`
   const hhbut = [
 {buttonId: '=info', buttonText: {displayText: '📤 Info'}, type: 1},
 {buttonId: '=profile', buttonText: {displayText: '🧧 Profile'}, type: 1}
@@ -310,7 +310,7 @@ const hlp=`
 let hbutto = {
         image: {url:"https://telegra.ph/file/9e58cb8f7cb23d7e7f94d.jpg"},
         caption: hlp,
-        footer: '©Arus 2022',
+        footer: '©MIZUHARA 2022',
         buttons: hhbut,
         headerType: 4
     }
@@ -359,16 +359,16 @@ const inf=`❁ ════ ❃•💙 *MIZUHARA* 💙•❃ ════ ❁
 ❁ ═══ ❃•📕 *INFORMATION*📕•❃ ═══ ❁
 \`\`\`A simple and easy-to-use WhatsApp bot project based on Multi-Device Baileys and written in JavaScript\`\`\`
 ❁ ══════ ❃•📄 *NOTE* 📄•❃ ══════ ❁
-\`\`\`This bot is a free open source project by THE TEAM ARUS\`\`\`
+\`\`\`This bot is a free open source project by sam\`\`\`
 ❁ ═════ ❃•📑 *GITHUB* 📑•❃ ═════ ❁
-*_LINK:- https://github.com/Arus-Bots/Mizuhara_*
+*_LINK:- SOON_*
 ❁ ═══ ❃•✍🏻 *CONTRIBUTE* ✍🏻•❃ ═══ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing =owner or =mods\`\`\` 
 `
 let buttonMessagei = {
         image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
         caption: inf,
-        footer: '©Arus 2022',
+        footer: '©MIZUHARA 2022',
         buttons: ibut,
         headerType: 4
     }
@@ -379,33 +379,21 @@ break
 case 'mods':
 const mod=`❁ ════ ❃• *MODERATORS* •❃ ════ ❁
 #1
-💥 *Username: Pratyush*
-🍁 *Contact: https://wa.me/+918231033230*
+💥 *Username: Sam*
+🍁 *Contact: https://wa.me/+212655892921*
 #2
-💥 *Username: AiZen*
-🍂 *Contact: https://wa.me/+918709022955*
-#3
-💥 *Username: Tomioka*
-🍁 *Contact: https://wa.me/+917003213983*
-#4
-💥 *Username: Death*
-🍁 *Contact: https://wa.me/+917604016334*
-#5
-💥 *Username: Arin*
-🍁 *Contact: https://wa.me/+919330880626*
-#6
-💥 *Username: Manish*
-🍁 *Contact: https://wa.me/+919106196230*
+💥 *Username: Move*
+🍂 *Contact: https://wa.me/+212667876859*
 ━━━━°❀•°:🤍 *MIZUHARA* 🤍:°•❀°━━━━`
 const mbut = [
 {buttonId: '=creator', buttonText: {displayText: '🎋 Creator'}, type: 1},
 {buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=mods', buttonText: {displayText: '💥 Mizuhara Team'}, type: 1}
 ]
 let buttonMessagem = {
         image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
         caption: mod,
-        footer: '©Arus 2022',
+        footer: '©MIZUHARA 2022',
         buttons: mbut,
         headerType: 4
     }
@@ -543,7 +531,7 @@ const buttonsd = [
 let buttonMessage = {
         image: { url: pfp },
         caption: profile,
-        footer: '©Arus 2022',
+        footer: '©MIZUHARA 2022',
         buttons: buttonsd,
         headerType: 4
     }
@@ -782,7 +770,7 @@ case  'play': case 'ytplay': {
 📓 Channel : ${anu.author.url}
 🎬 Description : ${anu.description}
 🌐 Url : ${anu.url}`,
-        footer: '©Arus 2022',
+        footer: '©MIZUHARA 2022',
         buttons: buttons,
         headerType: 4
     }
@@ -915,7 +903,7 @@ case 'gimage':case 'image': {
                     caption: `
 💥 *Query* : ${text}
 `,
-                    footer: '©Arus 2022',
+                    footer: '©MIZUHARA 2022',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -948,7 +936,7 @@ case 'gimage':case 'image': {
       let buttonsMessage = {
        image: await getBuffer(waifud.data.url),
        caption:  `*Here is your waifu*`,
-      footer: '©Arus 2022',
+      footer: '©MIZUHARA 2022',
       buttons: wbutss,
       headerType: 4
       }
@@ -1509,12 +1497,12 @@ break
                       let txt = `「 MIZUHARA BROADCAST 」\n\n${text}\n\nRegards~${pushname}`
 const bcbut=[{buttonId:"=info",buttonText:{displayText:"Info"},type:1},
 {buttonId:"=creator",buttonText:{displayText:"Creator"},type:1},
-{buttonId:"=mods",buttonText:{displayText:"Arus Team"},type:1}]
+{buttonId:"=mods",buttonText:{displayText:"Mizuhara Team"},type:1}]
 
 const bcbutt={
     image: fs.readFileSync('./bc.jpg'),
     caption:txt,
-    footer:`©Arus 2022`,
+    footer:`©MIZUHARA 2022`,
     buttons: bcbut,
     headerType:1
 } 

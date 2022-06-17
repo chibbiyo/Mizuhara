@@ -28,7 +28,7 @@ const getVersionWaweb = () => {
 }
 
 async function startArus() {
-    CFonts.say('MIZUHARA\nBY\nARUS', {
+    CFonts.say('MIZUHARA\nBY\nSAM', {
         font: 'block',
         align: 'center',
         gradient: ['blue', 'magenta']

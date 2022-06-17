@@ -14,10 +14,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['918231033230']
+global.owner = ['212655892921']
 global.packname = 'Mizuhara'
 global.prefix= ['=']
-global.author = 'Arus'
+global.author = 'TdmSam'
 global.sessionName = 'arus'
 global.reac = {
             cry:'Cried with',

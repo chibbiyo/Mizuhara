@@ -352,7 +352,7 @@ case 'info':
 const ibut = [
 {buttonId: '=profile', buttonText: {displayText: '🎋 Profile'}, type: 1},
 {buttonId: '=help', buttonText: {displayText: '🍂 Help'}, type: 1},
-{buttonId: '=mods', buttonText: {displayText: '💥 Arus Team'}, type: 1}
+{buttonId: '=mods', buttonText: {displayText: '💥 Mizuhara Team'}, type: 1}
 ]
 const inf=`❁ ════ ❃•💙 *MIZUHARA* 💙•❃ ════ ❁
 \`\`\`A FULL FLEDGED MULTI DEVICE WHATSAPP BOT WITH COOL FEATURES\`\`\`
@@ -366,7 +366,7 @@ const inf=`❁ ════ ❃•💙 *MIZUHARA* 💙•❃ ════ ❁
 \`\`\`Feel free to open issues regarding any problems or if you have any feature feel free to contact owner by typing =owner or =mods\`\`\` 
 `
 let buttonMessagei = {
-        image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
+        image: { url: "https://telegra.ph/file/c2834360200c7c8460ad8.jpg" },
         caption: inf,
         footer: '©MIZUHARA 2022',
         buttons: ibut,
@@ -391,7 +391,7 @@ const mbut = [
 {buttonId: '=mods', buttonText: {displayText: '💥 Mizuhara Team'}, type: 1}
 ]
 let buttonMessagem = {
-        image: { url: "https://telegra.ph/file/05a5910097d3dd9743ebb.jpg" },
+        image: { url: "https://telegra.ph/file/c2834360200c7c8460ad8.jpg" },
         caption: mod,
         footer: '©MIZUHARA 2022',
         buttons: mbut,
@@ -964,7 +964,7 @@ case 'neko':
       let buttonssMessage = {
        image: {url:waifud.data.url},
        caption:  `*Here is your 🐱Neko*`,
-      footer: '©Arus 2022',
+      footer: '©MIZUHARA 2022',
       buttons: wbutsss,
       headerType: 4
       }
@@ -984,7 +984,7 @@ case 'kemonomimi':
       let buttonssMessages = {
        image: {url:waifudd.data.url},
        caption:  `*Here You Go...*`,
-      footer: '©Arus 2022',
+      footer: '©MIZUHARA 2022',
       buttons: wbuttsss,
       headerType: 4
       }     
@@ -1030,7 +1030,7 @@ const suu =tb.set(`${m.chat}.hp`,waifu.data.display_picture )
  image:{url:waifu.data.display_picture},
  caption:hait,
 buttons:haibu,
-footer:'ARUS 2022',
+footer:'MIZUHARA 2022',
 headerType:4
    }
 arus.sendMessage(m.chat,haib,{quoted:m})
@@ -1187,7 +1187,7 @@ var walb = [
       let wal = {
        image: {url:wallpaper[i].image},
        caption: `*Query :* ${q}`,
-      footer: '©Arus 2022',
+      footer: '©MIZUHARA 2022',
       buttons: walb,
       headerType: 4
       }     
